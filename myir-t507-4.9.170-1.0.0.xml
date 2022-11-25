@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote fetch="https://github.com" name="github"/>
-	<remote fetch="https://gitee.com/myir-r-t507" name="LicyPublic"/>
+	<remote fetch="https://gitee.com/lichang70" name="LicyPublic"/>
 	<remote fetch="https://github.com/MYIR-ALLWINNER" name="MyirPublic"/>
 
 	<default remote="MyirPublic"/>
