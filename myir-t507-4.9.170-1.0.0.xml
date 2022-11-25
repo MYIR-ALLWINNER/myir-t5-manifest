@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote fetch="https://github.com" name="github"/>
-	<remote fetch="https://gitee.com/" name="LicyPublic"/>
-	<remote fetch="https://github.com/MYiR-Dev" name="MyirPublic"/>
+	<remote fetch="https://gitee.com/myir-r-t507" name="LicyPublic"/>
+	<remote fetch="https://github.com/MYIR-ALLWINNER" name="MyirPublic"/>
 
 	<default remote="MyirPublic"/>
 
-  </project>
-  <project name="MYiR-T507/platform" path="T507H/platform" remote="LicyPublic" revision="fe878faf390b0c57df6c2bdfd82c800e3c59b851"/>
-  <project name="MYiR-T507/framework" path="T507H/platform/framework" remote="LicyPublic" revision="cae9facee934fe154d8d53c9d5b2eb20262a3800"/>
-  <project name="MYiR-T507/test" path="T507H/test" remote="LicyPublic" revision="139470029f263ed1d3d34d706611e8078f6d0d14"/>
-  <project name="MYiR-T507/tools" path="T507H/tools" remote="LicyPublic" revision="aaf20f8ae523d6590fc36456d08aa8de9cf037c9"/>
-  <project name="MYiR-T507/brandy-2.0" path="T507H/brandy/brandy-2.0" remote="LicyPublic" revision="5a77bc013b189f055a567656d28980c72334a32f"/>
-  <project name="MYiR-T507/build" path="T507H/build" remote="LicyPublic" revision="4332bf1793748ae524d8a4302e91cf3ac1e4c966"/>
-  <project name="MYiR-T507/device" path="T507H/device" remote="LicyPublic" revision="e181afcf8aef9bca6589ab1e1ee4bf682e3a15ab"/>
+  <project name="platform" path="T507H/platform" remote="MyirPublic" revision="fe878faf390b0c57df6c2bdfd82c800e3c59b851"/>
+  <project name="framework" path="T507H/platform/framework" remote="MyirPublic" revision="cae9facee934fe154d8d53c9d5b2eb20262a3800"/>
+  <project name="test" path="T507H/test" remote="MyirPublic" revision="139470029f263ed1d3d34d706611e8078f6d0d14"/>
+  <project name="tools" path="T507H/tools" remote="MyirPublic" revision="aaf20f8ae523d6590fc36456d08aa8de9cf037c9"/>
+  <project name="brandy-2.0" path="T507H/brandy/brandy-2.0" remote="MyirPublic" revision="5a77bc013b189f055a567656d28980c72334a32f"/>
+  <project name="build" path="T507H/build" remote="MyirPublic" revision="4332bf1793748ae524d8a4302e91cf3ac1e4c966"/>
+  <project name="device" path="T507H/device" remote="MyirPublic" revision="7f453f4effd3c8b013ac1321b5c9dcee602e7550"/>
 
-  <project name="MYiR-T507/ubuntu" path="T507H/buildroot/ubuntu" remote="LicyPublic" revision="ef9d05d02533df0ffcfe244f4d6cd7807738bc72"/>
-  <project name="MYiR-T507/toolchain" path="T507H/brandy/brandy-2.0/tools/toolchain" remote="LicyPublic" revision="cb418935d594529e696e14aa2e24cf2467bcd54f"/>
-  <project name="MYiR-T507/toolchain" path="T507H/build/toolchain" remote="LicyPublic" revision="cb418935d594529e696e14aa2e24cf2467bcd54f"/>
-  <project name="MYiR-T507/build.sh" path="T507H/" remote="LicyPublic" revision="2d6ab900f77e784bc2bc2072bcb76207e4bdb92b"/>
+  <project name="ubuntu" path="T507H/buildroot/ubuntu" remote="MyirPublic" revision="ef9d05d02533df0ffcfe244f4d6cd7807738bc72"/>
+  <project name="toolchain" path="T507H/brandy/brandy-2.0/tools/toolchain" remote="LicyPublic" revision="cb418935d594529e696e14aa2e24cf2467bcd54f"/>
+  <project name="toolchain" path="T507H/build/toolchain" remote="LicyPublic" revision="cb418935d594529e696e14aa2e24cf2467bcd54f"/>
+  <project name="build.sh" path="T507H/" remote="MyirPublic" revision="2d6ab900f77e784bc2bc2072bcb76207e4bdb92b"/>
 
-  <project name="myir-t5-kernel" path="T507H/kernel/linux-4.9" remote="MyirPublic" revision="5e8dd7cf40231c8a4311e090a731b3166d5421dd"/>
-  <project name="myir-t5-buildroot" path="T507H/buildroot/buildroot-201902" remote="MyirPublic" revision="7e30f5386c5f2bf5585dc0f520d513d801347bf7"/>
-  <project name="myir-t5-uboot" path="T507H/brandy/brandy-2.0/u-boot-2018" remote="MyirPublic" revision="2233efebf62ec73b5621558f3517eb086c3f426a"/>
+  <project name="myir-t5-kernel" path="T507H/kernel/linux-4.9" remote="MyirPublic" revision="11f0b67cae526d6915055d28da8a464c41fd5408"/>
+  <project name="myir-t5-buildroot" path="T507H/buildroot/buildroot-201902" remote="MyirPublic" revision="e306c7a51ff83465d4c051ba06f0c38b522b29b9"/>
+  <project name="myir-t5-uboot" path="T507H/brandy/brandy-2.0/u-boot-2018" remote="MyirPublic" revision="c70fa6f0f1af450434b002e786e3f4d3e3e23fe3"/>
 	  
 </manifest>
